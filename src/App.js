@@ -1,12 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
-import Navbar from './components/navbar';
-
+import Navbar from './components/navbar/navbar'
+import Header from './components/header/header'
 import React, { Component } from 'react';
-import CvSplitCover from './components/cv-split-cover/cv-split-cover';
 
 class App extends Component {
-
   constructor(props){
     super(props);
     this.state = {
@@ -14,13 +11,19 @@ class App extends Component {
     }
 }
 
+handleCallback = (childData) =>{
+  console.log(childData)
+}
 
 
 render(){
   const {data} = this.state;
  return(
-    <Navbar dataParentToChild = {data}/>
-    <CvSplitCover />
+    <div>
+      <Navbar parentCallback = {this.handleCallback} dataParentToChild = {data}/>
+      <Header/>
+    </div>
+    
   )
 }
 }

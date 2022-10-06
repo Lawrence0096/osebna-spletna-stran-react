@@ -1,0 +1,59 @@
+.header {
+  display: flex;
+  height: 60vh;
+}
+
+.header-picture {
+  background-image: url(../../assets/279547.webp);
+  width: 80%;
+  background-size: contain;
+  background-size: cover;
+  color: white;
+  display: flex;
+  align-items: flex-end;
+}
+
+.personal-info {
+  background-color: #585450;
+  width: 20%;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+}
+
+.hp-text-container {
+  height: 200px;
+  width: 100%;
+  bottom: 0;
+}
+
+#n3 {
+  font-family: "Righteous", cursive;
+  font-size: 20px;
+  margin: 0px;
+}
+
+#n2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 75px;
+  margin: 0px;
+}
+
+#n1 {
+  font-family: "Lato", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 30px;
+  margin: 0px;
+}
+
+#n1, #n2, #n3 {
+    margin-left: 15px;
+}
+
+.cv-img {
+    height: 170px;
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 30px;
+}

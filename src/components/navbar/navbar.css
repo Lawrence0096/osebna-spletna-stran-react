@@ -3,7 +3,7 @@
 }
 
 .navigation-bar{
-    height: 70px;
+    height: 10vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -19,4 +19,9 @@
 #nav-el:hover{
     cursor: pointer;
     color: rgb(0, 162, 255);
+}
+
+#nav-title:hover{
+    color: rgb(0, 162, 255);
+    cursor: pointer;
 }
